@@ -10,3 +10,8 @@ variable "INSTANCE_TYPE" {
     default = "t3.micro"
   
 }
+variable "bucket_name" {
+    type = string
+    default = "nibafrde1234677377"
+    description = "Bucket Name"
+}
